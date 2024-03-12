@@ -82,6 +82,11 @@ calculated crc is 0x2866
 CRC OK
 
 ```
+# Bonus: Analyzing waveform and picking up intresting data
+
+The best way to analyze and pick selected data from the waveform is to use audio editor. I have used Audacity.  
+To import File -> Import -> Raw data, select file and set proper format (Float32)
+To export File -> Export -> Export Sound (Or Export Selected) -> On bottom of screen on right side select "Other not compressed files" -> Header set to RAW -> Encoding to proper format (Float32?)
 
 # Bonus: Calculation of CRC
 
